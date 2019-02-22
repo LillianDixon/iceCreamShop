@@ -10,7 +10,13 @@ $black: #161616;
 $headingFont: 'Vollkorn', serif;
 $bodyFont: 'Ubuntu', sans-serif;
 
+body{
+    margin:0;
+}
+
 .menu-wrapper {
+    background-color: $white;
+    margin: 0;
 }
 
 .menu-heading{
@@ -32,6 +38,7 @@ $bodyFont: 'Ubuntu', sans-serif;
 .scoops-wrapper{
     display: flex;
     justify-content: center;
+    background-color: $blue;
 }
 
 .one-scoop {
@@ -47,8 +54,12 @@ $bodyFont: 'Ubuntu', sans-serif;
 }
 
 .flavors{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    justify-content: center;
+}
+
+.flavor{
+    display: grid;
     justify-content: center;
 }
 
@@ -62,10 +73,10 @@ $bodyFont: 'Ubuntu', sans-serif;
 .top-price{
     display: flex;
     justify-content: center;
+    background-color: $blue;
 }
 
 .toppings{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    display: grid;
+    justify-content: center;
 }
