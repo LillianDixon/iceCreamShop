@@ -9,10 +9,16 @@ export default function() {
     return (
         <div className="history-wrapper">
             <NavigationContainer url="url(https://files.slack.com/files-pri/T208051T5-FGE8D38HH/03a6dd63403181.5aafddd253d6e.jpg)"/>
-            History
-            <Bio />
-            <HistoryPhoto />
-            <IceCreamHistory />
+            <div className="history-content">
+                <Bio />
+                <div className="history-photos">
+                    <HistoryPhoto url="https://files.slack.com/files-pri/T208051T5-FGEFTFQM8/image_from_ios.jpg" />
+                    <HistoryPhoto url="https://files.slack.com/files-pri/T208051T5-FGEC70D2P/image_from_ios.jpg" />
+                </div>
+                <div className="history-facts">
+                    <IceCreamHistory />
+                </div>
+            </div>
         </div>
     )
 }

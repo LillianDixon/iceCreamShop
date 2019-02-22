@@ -1,3 +1,33 @@
-// .history-wrapper {
-//     width: 200px;
-// }
+.history-wrapper {
+    background-color: $green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .history-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $blue;
+        width: 800px;
+        padding: 0px 20px;
+        h2 {
+            text-align: center;
+        }
+        .history-photos {
+            display: flex;
+            justify-content: space-around;
+            img {
+                width: 300px;
+                text-align: center;
+                border: 5px solid black;
+                margin: 50px 10px;
+            }
+        }
+        .history-facts {
+            width: 600px;
+            li {
+                margin: 20px 0px;
+            }
+        }
+    }
+}

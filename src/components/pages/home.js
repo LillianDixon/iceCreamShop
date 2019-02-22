@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import NavigationContainer from "../navigation/navigation-container"
+
 export default class Home extends Component {
   render() {
     return(
