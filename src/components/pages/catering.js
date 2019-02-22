@@ -1,8 +1,11 @@
 import React from 'react';
 
-import NavigationContainer from "../navigation/navigation-container"
+import NavigationContainer from "../navigation/navigation-container";
 import CateringDetails from "../catering/catering-details";
 import CateringHeading from "../catering/catering-heading";
+import FooterContainer from "../footer/footer"
+
+
 
 export default function() {
     return (
