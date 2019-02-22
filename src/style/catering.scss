@@ -1,12 +1,18 @@
+.wrapper {
+   background-color: #f1f1f1; 
+   h1 {
+    font-family: $headingFont;
+  }
+  font-size: 1.5em;
+}
 
 .catering-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     background-color: #f1f1f1;
-    
+    margin: 0px 200px;
 }
-
 .catering-image-left {
     background-image: url('/assets/images/Left-image.PNG');
     grid-row: 1;
@@ -19,7 +25,6 @@
     margin-top: 50px;
     
 }
-
 .catering-image-right {
     background-image: url('/assets/images/right-image.PNG');
     grid-row: 2;
@@ -31,7 +36,17 @@
     margin-left: 220px;
     margin-top: 50px;
     
-   
-    
 }
 
+.catering-heading {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.top-catering-p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+}
