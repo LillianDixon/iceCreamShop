@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import CateringDetails from "../catering/catering-details";
 import CateringHeading from "../catering/catering-heading";
