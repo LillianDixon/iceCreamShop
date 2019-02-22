@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function() {
+
+export default function(props) {
     return (
         <div className="history-photo">
-            <img src="https://files.slack.com/files-pri/T208051T5-FGEFTFQM8/image_from_ios.jpg" alt="Ice Cream"/>
+            <img src={props.url} alt=""/>
+
         </div>
     )
 }
