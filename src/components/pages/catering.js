@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function() {
     return (
-        <div class="catering-wrapper">
+        <div className="catering-wrapper">
             Catering
         </div>
     )
