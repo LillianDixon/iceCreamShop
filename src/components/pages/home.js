@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FooterContainer from "../footer/footer"
 
 export default class Home extends Component {
   render() {
