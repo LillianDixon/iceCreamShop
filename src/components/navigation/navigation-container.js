@@ -1,11 +1,9 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 
-import Logo from "./logo.js"
-
-export default function() {
+export default function(props) {
     return (
-        <div className="nav-wrapper">
+        <div className="nav-wrapper" style={{backgroundImage: props.url}}>
             <div className='navlink'>
                 <NavLink exact to="/" activeClassName="nav-link-active">Home</NavLink>  
             </div>
