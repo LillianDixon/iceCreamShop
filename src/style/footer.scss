@@ -1,0 +1,42 @@
+.footer {
+    background-color: #CFE5A4;
+    color: #161616;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+
+    .social-media-icons-wrapper {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .social-media-icons-wrapper a {
+        font-size: 1.5em;
+        color: #161616;
+        transition: 0.5s;
+    }
+
+    .social-media-icons-wrapper a:hover {
+        color: #FB877A;
+    }
+    
+    img {
+        width: 40%;
+        height: 50%;
+        /*filter: brightness(50%);*/
+        opacity: 0.5;
+    }
+
+    p {
+        font-family: 'Ubuntu', sans-serif;
+        color: #161616;
+    }
+}

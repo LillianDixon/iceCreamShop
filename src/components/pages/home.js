@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FooterContainer from "../footer/footer"
 
 import NavigationContainer from "../navigation/navigation-container"
 

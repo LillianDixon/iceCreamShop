@@ -4,6 +4,7 @@ import NavigationContainer from "../navigation/navigation-container"
 import Bio from "../history/bio"
 import HistoryPhoto from "../history/historyPhoto"
 import IceCreamHistory from "../history/iceCreamHistory"
+import FooterContainer from "../footer/footer"
 
 export default function() {
     return (
