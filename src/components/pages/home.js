@@ -6,7 +6,7 @@ export default class Home extends Component {
   render() {
     return(
       <div className='homepage'>
-        <NavigationContainer url=""/>
+        <NavigationContainer url="url(https://files.slack.com/files-pri/T208051T5-FGEHYU61H/homepagebackgroundimg.png)"/>
 
 
         <div className='highlight-section'>
