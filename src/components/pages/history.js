@@ -7,7 +7,7 @@ import IceCreamHistory from "../history/iceCreamHistory"
 
 export default function() {
     return (
-
+        <div>
             <NavigationContainer url="url(https://files.slack.com/files-pri/T208051T5-FGE8D38HH/03a6dd63403181.5aafddd253d6e.jpg)"/>
             <div className="history-content">
                 <Bio />
