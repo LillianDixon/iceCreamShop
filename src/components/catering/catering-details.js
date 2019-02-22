@@ -3,9 +3,10 @@ import React from "react";
 export default function() {
     return (
         <div className="catering-paragraph">
-            <div class="number">555 555 5555</div>
-            <div class="hours">10AM-Midnight</div>
-            <div class="location">2685 Cliffside Drive</div>
+            <h1>Contact Information</h1>
+            <p>555 555 5555</p>
+            <p>10AM-Midnight</p>
+            <p>2685 Cliffside Drive</p>
         </div>
     )
 }
