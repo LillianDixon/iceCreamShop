@@ -8,7 +8,9 @@ import IceCreamHistory from "../history/iceCreamHistory"
 export default function() {
     return (
         <div className="history-wrapper">
-            <NavigationContainer url="url(https://files.slack.com/files-pri/T208051T5-FGE8D38HH/03a6dd63403181.5aafddd253d6e.jpg)"/>
+                   <NavigationContainer url="url(https://files.slack.com/files-pri/T208051T5-FGDQHC725/9f742263403181.5aafddd2537da.jpg)"/>
+        <div className='hero-section'>                      
+        </div>
             History
             <Bio />
             <HistoryPhoto />
