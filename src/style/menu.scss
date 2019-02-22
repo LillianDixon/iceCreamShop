@@ -11,14 +11,61 @@ $headingFont: 'Vollkorn', serif;
 $bodyFont: 'Ubuntu', sans-serif;
 
 .menu-wrapper {
-    display: flex;
-    justify-content: center;
 }
 
 .menu-heading{
     background-color: $green;
+    display: flex;
+    justify-content: center;
+}
+
+.flavors-wrapper {
+
 }
 
 .flav-title{
     background-color: $red;
+    display: flex;
+    justify-content: center;
+}
+
+.scoops-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.one-scoop {
+    padding: 20px;
+}
+
+.two-scoop {
+    padding: 20px;
+}
+
+.three-scoop {
+    padding: 20px;
+}
+
+.flavors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.top-title{
+    background-color: $red;
+    display: flex;
+    justify-content: center;
+}
+
+.top-price{
+    display: flex;
+    justify-content: center;
+}
+
+.toppings{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }

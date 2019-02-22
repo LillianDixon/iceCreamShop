@@ -56,7 +56,7 @@ export default function() {
                     </div>
 
                     <div className = "flavor">
-                        <p>Raspberryt Chocolate Ribbon</p>
+                        <p>Raspberry Chocolate Ribbon</p>
                     </div>
 
                     <div className = "flavor">
