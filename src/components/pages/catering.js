@@ -4,8 +4,6 @@ import NavigationContainer from "../navigation/navigation-container"
 import CateringDetails from "../catering/catering-details";
 import CateringHeading from "../catering/catering-heading";
 
-import NavigationContainer from "../navigation/navigation-container"
-
 export default function() {
     return (
         <div className="catering-wrapper">
