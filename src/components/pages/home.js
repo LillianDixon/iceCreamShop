@@ -7,13 +7,14 @@ export default class Home extends Component {
   render() {
     return(
       <div className='homepage'>
-        <NavigationContainer url="url(https://files.slack.com/files-pri/T208051T5-FGEHYU61H/homepagebackgroundimg.png)"/>
+        <NavigationContainer url="url(https://files.slack.com/files-pri/T208051T5-FGE63FQJV/screenshot_2019-02-22_16.21.45.png)"/>
 
 
         <div className='highlight-section'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duo Reges: constructio interrete.</p>
-          <p>Quod iam a me expectare noli. Nec vero sum nescius esse utilitatem in historia, non modo voluptatem. Nescio quo modo praetervolavit oratio. At ille pellit, qui permulcet sensum voluptate.</p>
-          <p>Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Nihil sane.</p>
+          <h1>Welcome to Monty’s Ice Cream</h1>
+          <h3>Monty’s hand made ice cream stems from a family tradition of using local products including farm-fresh cream and garden-ripened fruit. Wholesome ingredients have been a staple in the Montague household for decades.</h3>
+          <h3>Monty’s ice cream is best enjoyed with family and friends.</h3>
+          <h3>Hand made and 100% real. Enjoy!</h3>
         </div>
 
         <div className='google-map'>

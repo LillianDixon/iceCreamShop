@@ -9,9 +9,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 100px;
 
   .navlink {
     width: 123px;
+    padding-left: 100px;
 
     .nav-link-active {
       color: $red;
@@ -23,9 +25,10 @@
       text-decoration: none;
       transition: 0.3s;
       border-bottom: 1px solid transparent;
+      font-size: 1.5rem;
 
       &:hover {
-        color: $red;
+        color: $green;
       }
     }
   }

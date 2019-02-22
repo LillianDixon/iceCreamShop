@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  h1 {
+    font-family: $headingFont;
+  }
 
   .highlight-section {
     max-width: 750px;
