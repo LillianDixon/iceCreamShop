@@ -2,6 +2,7 @@
   display: flex;
   justify-content: flex-start;
   padding: 27px;
+  // background-image: url('/assets/backgrounds/imagenamehere.extensionhere');
 
   .navlink {
     width: 123px;
@@ -23,3 +24,12 @@
     }
   }
 }
+
+
+// add to every main page component:
+
+// .nav-wrapper {
+//   background-image: url('/assets/imagenamehere.extensionhere');
+// }
+
+// different image in URL parens
