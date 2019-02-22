@@ -5,7 +5,7 @@ import CateringHeading from "../catering/catering-heading";
 
 export default function() {
     return (
-        <div class="catering-wrapper">
+        <div className="catering-wrapper">
             Catering
 
             <div className="catering-heading">

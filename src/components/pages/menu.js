@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function() {
     return (
-        <div class="menu-wrapper">
+        <div className="menu-wrapper">
             Menu
         </div>
     )
