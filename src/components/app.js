@@ -6,6 +6,7 @@ import Home from "./pages/home"
 import Menu from "./pages/menu"
 import History from "./pages/history"
 import Catering from "./pages/catering"
+import FooterContainer from "./footer/footer"
 
 export default class App extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class App extends Component {
       <div className='app'>
         <Router>
           <div>
-
+            <NavigationContainer />
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/menu" component={Menu} />
@@ -22,6 +23,7 @@ export default class App extends Component {
             </Switch>
           </div>
         </Router>
+        <FooterContainer />
       </div>
     );
   }
