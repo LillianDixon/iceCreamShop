@@ -1,0 +1,37 @@
+
+.catering-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #f1f1f1;
+    
+}
+
+.catering-image-left {
+    background-image: url('/assets/images/Left-image.PNG');
+    grid-row: 1;
+    grid-column: 1;
+    height: 500px;
+    width: 500px;
+    max-width: 100%;
+    background-position: center;
+    margin-left: 220px;
+    margin-top: 50px;
+    
+}
+
+.catering-image-right {
+    background-image: url('/assets/images/right-image.PNG');
+    grid-row: 2;
+    grid-column: 2;
+    height: 500px;
+    width: 500px;
+    max-width: 100%;
+    background-position: center;
+    margin-left: 220px;
+    margin-top: 50px;
+    
+   
+    
+}
+
