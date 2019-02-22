@@ -6,6 +6,7 @@ import CateringHeading from "../catering/catering-heading";
 export default function() {
     return (
         <div className="catering-wrapper">
+            <NavigationContainer url=""/>
             Catering
 
             <div className="catering-heading">
