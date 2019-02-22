@@ -3,9 +3,9 @@ import React from "react";
 export default function() {
     return (
         <div className="catering-paragraph">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, autem dicta! Amet, est, dolorem illum laudantium aliquid sint soluta, ipsam blanditiis id expedita quae a maxime sed facilis ducimus debitis.
-            </p>
+            <div class="number">555 555 5555</div>
+            <div class="hours">10AM-Midnight</div>
+            <div class="location">2685 Cliffside Drive</div>
         </div>
     )
 }
