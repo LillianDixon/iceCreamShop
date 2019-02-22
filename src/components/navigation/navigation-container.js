@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
 
+import Logo from "./logo.js"
+
 export default function() {
     return (
         <div className="nav-wrapper">
