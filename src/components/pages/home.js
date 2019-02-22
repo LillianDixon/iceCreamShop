@@ -7,8 +7,7 @@ export default class Home extends Component {
     return(
       <div className='homepage'>
         <NavigationContainer url=""/>
-        <div className='hero-section'>                      
-        </div>
+
 
         <div className='highlight-section'>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duo Reges: constructio interrete.</p>
