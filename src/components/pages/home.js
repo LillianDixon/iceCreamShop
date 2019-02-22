@@ -9,8 +9,8 @@ export default class Home extends Component {
 
         <div className='highlight-section'>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duo Reges: constructio interrete.</p>
-          <p>Non enim iam stirpis bonum quaeret, sed animalis. Quod cum dixissent, ille contra. Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Nihil sane.</p>
-          <p>Quod iam a me expectare noli.</p>
+          <p>Quod iam a me expectare noli. Nec vero sum nescius esse utilitatem in historia, non modo voluptatem. Nescio quo modo praetervolavit oratio. At ille pellit, qui permulcet sensum voluptate.</p>
+          <p>Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Nihil sane.</p>
         </div>
 
         <div className='google-map'>
